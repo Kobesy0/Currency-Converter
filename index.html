@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS style  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+    <title>Currency Converter | Mostafa Kobesy</title>
+</head>
+<body>
+    <div class="card">
+        <div class="social-media">
+            <div class="moon"><i class="fa-solid fa-moon"></i></div>
+            <div class="sun"><i class="fa-solid fa-cloud-sun"></i></div>
+            <div class="instagram"><i class="fa-brands fa-instagram"></i></div>
+            <div class="whatsApp"><i class="fa-brands fa-whatsapp"></i></div>
+            <div class="linkedin"><i class="fa-brands fa-linkedin"></i></div>
+            <div class="github"><i class="fa-brands fa-github"></i></div>
+        </div>
+        <img class="img-exchange" src="exchange-rate.png">
+        <header>Currency Converter</header>
+        <form>
+            <p>Enter Amount</p>
+            <div>
+                <div class="bank-icon"><i class="fa-solid fa-building-columns"></i></div>
+                <input type="number" class="amount" >
+            </div>
+            <span class="errorAmount"></span>
+            <div class="currency-select">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-box">
+                        <img src= "https://flagcdn.com/48x36/us.png" >
+                        <select></select>
+                    </div>
+                </div>
+                <div class="icon-exchange"><i class="fa-solid fa-money-bill-transfer"></i></div>
+                
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-box">
+                        <img src="https://flagcdn.com/48x36/eg.png" >
+                        <select></select>
+                    </div>
+                </div>
+            </div>
+
+            <button class="exchange">Exchange Rate</button>
+            <div class="exchange-rate"></div>
+            <button class="reset">Reset</button>
+        </form>
+    </div>
+    <!-- Object has all the currency  -->
+    <script src="js/currencyList.js"></script>
+    <!-- The main script  -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
