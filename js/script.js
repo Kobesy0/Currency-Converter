@@ -39,7 +39,7 @@ document.querySelector(".whatsApp").addEventListener("click", ()=> {
 })
 
 document.querySelector(".linkedin").addEventListener("click" , ()=> {
-    let link = `https://www.linkedin.com/in/mostafa-kobesy-586266255/`
+    let link = `https://www.linkedin.com/in/mostafa-kobesy-984b8831a/`
     window.open(link , "_blank")
 })
 
